@@ -1,0 +1,21 @@
+.carListCard{
+    min-width: 111px;
+}
+
+.carList{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.carListItemLink{
+    color: #737373;
+    line-height: 200%;
+    text-decoration-line: underline;
+}
+
+.carListBox{
+    display: flex;
+    gap: 13px;
+    margin-right: 103px;
+}

@@ -1,0 +1,349 @@
+@import "global.css";
+@import "reset.css";
+@import "fonts.css";
+
+
+.header-top-color{
+    background-color: #EFF0F0;
+    padding: 13px 0 15px;
+}
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-top-location-desc,
+.header-top-clock-desc,
+.header-top-whatsupp-desc{
+    color: #737373;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: capitalize;
+}
+
+.header-top-location-desc{
+    position: relative;
+    padding-left: 22px;
+}
+
+.header-top-location-desc::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/page_1/header/location.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 15px;
+}
+
+.header-top-clock-desc{
+    position: relative;
+    padding-left: 23px;
+}
+
+.header-top-clock-desc::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/page_1/header/clock.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 17px;
+}
+
+.header-top-whatsupp-desc{
+    position: relative;
+    padding-left: 27px;
+}
+
+.header-top-whatsupp-desc::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    background-image: url("../images/page_1/header/whatsUpp.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 21px;
+    height: 21px;
+}
+
+
+.header-main-box{
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-main-sidebar-link{
+    margin-right: 20px;
+}
+.header-main-advertisement{
+    max-width: 170px;
+    margin-left: 23px;
+    margin-right: 29px;
+}
+
+.header-main-logo-container {
+    max-width: 198px;
+    padding-right: 21px;
+    display: block;
+    position: relative;
+}
+
+.header-main-logo-container:after{
+    content: '';
+    position: absolute;
+    background-color: #C2C2C4;
+    width: 1px;
+    height: 35px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto 0
+}
+
+
+.header-main-advertisement-time{
+    color: #fff;
+    padding: 0 4px;
+    background-color: red;
+    border-radius: 10px;
+}
+
+.header-main-navigation-list{
+    display: flex;
+    gap: 16px;
+}
+
+/*ПРАКА 2 */
+
+.header-main-navigation-item{
+    font-size: 14px;
+    transition: color 0.3s linear;
+}
+
+.header-main-navigation-item:hover{
+    color: red;
+}
+
+a:active{
+    color: green;
+}
+
+.header-main-navigation-item-link:visited{
+    color: purple;
+}
+/*ПРАКА 2 */
+
+.header-main-connection{
+    display: flex;
+    gap: 20px;
+}
+
+.header-main-connection-tel{
+    display: flex;
+    gap: 12px;
+}
+
+.header-main-connection-tel-numbers{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 213px;
+}
+
+.header-main-connection-tel-numbers-first{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.header-main-connection-btn{
+    border: none;
+    background-color: #CA0100;
+    border-radius: 6px;
+    padding: 16px 28px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.header-catalogs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-catalogs-list{
+    display: flex;
+    gap: 86px;
+}
+
+.header-catalogs-item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.header-catalog-item-title{
+    text-transform: uppercase;
+}
+
+
+.interactive-list{
+    display: flex;
+    gap: 42px;
+}
+
+.header-catalogs{
+    padding-top: 32px;
+}
+
+.carsInStock-title{
+    color: #262626;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.specialOffers-title,
+.reviews-title{
+    color: #262626;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.reviews-item{
+    border-radius: 25px;
+}
+
+.reviews-item-box{
+
+    min-width: 446px;
+}
+
+
+.reviews-item-back{
+    position: relative;
+    margin: 0 auto;
+    padding: 60px 0;
+    z-index: 1;
+}
+
+.reviews-item-push{
+    position: absolute;
+    top: 112px;
+    left: 192px;
+    content: '';
+    z-index: 5;
+}
+
+.reviews-list{
+    display: flex;
+    justify-content: space-between;
+    gap: 29px;
+}
+
+.reviews-title{
+    margin-bottom: 44px;
+}
+
+.reviews-item-box-first{
+    background-color: #262626;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    position: relative;
+}
+
+.reviews-item-box-second{
+    padding: 32px 23px 39px 30px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    background-color: #F2F2F2;
+}
+
+.reviews-item-author{
+    margin-bottom: 30px;
+}
+
+.reviews-item-author-text{
+    color: #737373;
+    margin-bottom: 21px;
+}
+
+.reviews-item-moreInfo{
+    width: 188px;
+    background-color: #E1E1E1;
+    padding: 10px 15px 6px 20px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    cursor: pointer;
+}
+
+.reviews-item-moreInfo p{
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 14px;
+}
+
+.footer-containerFluid{
+    margin: 0 auto;
+    max-width: 1810px;
+    background-color: #262626;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    color: #fff;
+}
+
+.footer-navigation{
+    padding: 42px 0 39px;
+}
+
+.footer-nav-item-link{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.footer-nav-list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-head-line{
+    border-bottom: 1px solid rgba(255,255, 255, 0.2);
+}
+
+.komb-1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.komb-1 .komb-1-child{
+    font-size: 24px;
+    margin-right: 10px;
+}
+
+.komb-1 > .komb-1-child{
+    color: red;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active{
+    background-color: white;
+    outline: 4px solid #CA0100;
+    opacity: 0.52;
+}
