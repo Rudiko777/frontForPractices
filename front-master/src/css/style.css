@@ -6,12 +6,18 @@
 .header-top-color{
     background-color: #EFF0F0;
     padding: 13px 0 15px;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
 }
 
 .header-top{
     display: flex;
     justify-content: space-between;
 }
+
+
 
 .header-top-location-desc,
 .header-top-clock-desc,
@@ -81,10 +87,14 @@
 
 
 .header-main-box{
-    padding-top: 30px;
+    padding-top: 55px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #EFF0F0;
+    position: fixed;
+    top: 0;
+    z-index: 99;
 }
 
 .header-main-sidebar-link{
@@ -126,6 +136,7 @@
 .header-main-navigation-list{
     display: flex;
     gap: 16px;
+    margin-right: 100px;
 }
 
 /*ПРАКА 2 */
@@ -183,6 +194,7 @@ a:active{
 .header-catalogs{
     display: flex;
     justify-content: space-between;
+    margin-top: 100px;
 }
 
 .header-catalogs-list{
@@ -208,6 +220,12 @@ a:active{
 
 .header-catalogs{
     padding-top: 32px;
+}
+
+.carsInStock{
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .carsInStock-title{
@@ -346,4 +364,29 @@ a:active{
     background-color: white;
     outline: 4px solid #CA0100;
     opacity: 0.52;
+}
+
+.layer1{
+    float: left; /* Обтекание по правому краю */
+    background-color: aqua; /* Цвет фона */
+    border-radius: 7px;
+    border: 1px solid black; /* Параметры рамки */
+    padding: 10px; /* Поля вокруг текста */
+    margin-right: 20px; /* Отступ справа */
+    width: 40%; /* Ширина блока */
+}
+
+.float-styles{
+    margin-top: 10px;
+}
+
+.car-float-div{
+    float: right; /* Обтекание по правому краю */
+    padding: 10px; /* Поля вокруг текста */
+    margin-right: 20px; /* Отступ справа */
+    width: 40%; /* Ширина блока */
+}
+
+.car-float{
+    margin-top: 10px;
 }
